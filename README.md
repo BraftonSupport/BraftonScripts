@@ -16,3 +16,13 @@ install the plugin and check off the data you want to replace the urls with.
 ###multsite
 copy the content of the wp-content/uploads/ folder corresponding to your sites installation. ie siteId = 2
 take the folder wp-content/uploads/2 and drop the the "2" folder into your new installation wp-content/uploads
+
+
+BraftonModel 
+
+opop.open({
+content: //html content,
+width: //width of container
+height: //height of container
+url: //other url to open in the modal
+});
